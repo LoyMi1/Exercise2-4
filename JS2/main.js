@@ -62,7 +62,7 @@ function insertOrUpdateRecord() {
     console.log(infoRecord);
     console.log(arrRecords);
 
-    // Show the controls when data is inserted
+    
     document.getElementById("controls").style.display = "block";
   } else {
     for (const txt of inputTxt) {

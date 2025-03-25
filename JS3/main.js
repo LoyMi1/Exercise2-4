@@ -12,8 +12,8 @@ function loadData() {
     .then((data) => {
       const table = document.getElementById("dataTable");
       const tableBody = document.getElementById("tableBody");
-      table.style.display = "table"; // Show the table
-      tableBody.innerHTML = ""; // Clear existing data
+      table.style.display = "table"; 
+      tableBody.innerHTML = "";
       data.forEach((todo) => {
         const row = document.createElement("tr");
         row.innerHTML = `
